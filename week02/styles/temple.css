@@ -1,0 +1,14 @@
+head {
+    p {
+        font-size: 20px;
+        background-color: #2e2e2e;
+        color: white;
+        padding: 16px;
+        text-align: center;
+
+    }
+}
+
+h1 {
+    text-align: center;
+}
