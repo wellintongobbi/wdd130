@@ -21,6 +21,12 @@ main img {
     box-shadow: 0 0 30px #333;
 }
 
+nav a {
+    color: black;
+    padding: 1rem;
+    display: block;
+}
+
 aside {
     width: 400px;
     margin: 10px;
