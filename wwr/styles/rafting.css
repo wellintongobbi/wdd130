@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-    background-color: var(--secundary-color);
+
     width: 100%;
     padding: 16px;
 }
@@ -73,7 +73,6 @@ article {
 
 .hero article {
     position: absolute;
-    background-color: var(--primary-collor);
 }
 
 .hero article img {
