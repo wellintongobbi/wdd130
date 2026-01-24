@@ -79,3 +79,13 @@ article {
     float: right;
     width: 125px;
 }
+
+footer {
+    background-color: var(--secundary-color);
+}
+
+footer img {
+    width: 50px;
+    float: right;
+    position: static
+}
