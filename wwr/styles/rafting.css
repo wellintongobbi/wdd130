@@ -73,6 +73,7 @@ article {
 
 .hero article {
     position: absolute;
+    background-color: var(--primary-collor);
 }
 
 .hero article img {
