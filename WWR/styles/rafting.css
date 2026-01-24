@@ -29,6 +29,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-collor);
+    text-align: center;
 }
 
 h1 {
@@ -39,7 +40,14 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
+}
+
+h2 {
+    background-color: var(--secundary-color);
+    width: 100%;
+    padding: 16px;
+    opacity: 0.9;
 }
 
 nav,
@@ -62,6 +70,10 @@ article {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero article img {
