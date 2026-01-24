@@ -18,6 +18,10 @@ body {
     color: var(--accent1-color);
 }
 
+header {
+    background-color: var(--secundary-color);
+}
+
 header,
 main,
 footer {
