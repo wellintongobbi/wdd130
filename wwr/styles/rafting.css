@@ -122,12 +122,17 @@ article {
 
 footer {
     background-color: var(--secundary-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 1rem;
 }
 
 footer img {
     width: 50px;
     float: right;
-    position: static
+    position: static;
+    object-fit: cover;
 }
 
 .adventures {
