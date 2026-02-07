@@ -203,6 +203,7 @@ footer img {
 
 .map-section iframe {
     width: 400px;
+    height: 300px;
     flex-shrink: 0;
     border: 0;
 }
@@ -275,10 +276,10 @@ textarea {
     resize: none;
 }
 
-.employee h1 {
+.employee h2 {
     padding: 1rem;
     color: black;
-
+    font-size: 2rem;
 }
 
 .employee {
