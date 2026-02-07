@@ -204,6 +204,7 @@ footer img {
 .map-section iframe {
     width: 400px;
     flex-shrink: 0;
+    border: 0;
 }
 
 .form {
