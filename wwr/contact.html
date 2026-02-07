@@ -1,0 +1,152 @@
+<!-- https://wellintongobbi.github.io/wdd130/wwr/about.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page that shows ways to contact WhiteWater Rafting">
+    <meta name="author" content="Wellinton Allan Gobbi">
+    <title>WhiteWater Rafting | Contact</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <div class="grid">
+        <header>
+            <img src="images/logo.png" alt="Logo of WhiteWater Rafting">
+
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </header>
+    </div>
+    <main>
+        <div class="info">
+            <h1>WhiteWater Rafting Compani</h1>
+            <p>
+                123 Main River Street<br>
+                Kolob, California<br>
+                +1 999 999 9999 <br>
+                info@whitewater.com
+            </p>
+        </div>
+        <div class="map-section">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1988.7676880893812!2d-49.02773233760994!3d-25.508465676589488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1770424325277!5m2!1spt-BR!2sbr"
+              width="400px" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="form">
+                <form class="contact-form">
+                    <table>
+                        <tr>
+                            <td><label for="name">Name</label></td>
+                            <td><input type="text" id="name" placeholder="Placeholder" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" id="email" placeholder="Placeholder" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Message Purpose</td>
+                            <td>
+                                <div class="radio-group">
+                                    <label for="general">
+                                        <input type="radio" id="general" name="purpose" checked>
+                                        General Inquiry
+                                    </label>
+
+                                    <label for="reservation">
+                                        <input type="radio" id="reservation" name="purpose">
+                                        Reservation Question
+                                    </label>
+
+                                    <label for="website">
+                                        <input type="radio" id="website" name="purpose">
+                                        Website Suggestion
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2"><label for="message">Message</label>
+
+                                <textarea id="message" rows="4" placeholder="Type here"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <label for="newsletter">
+                                    <input type="checkbox" id="newsletter">
+                                    Please subscribe me to the monthly newsletter
+                                </label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2" style="text-align:center;">
+                                <button type="submit">Get in Touch!</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="employee">
+            <h1>We Are Here to Serve You</h1>
+            <table class="employee">
+                <tr>
+                    <td>
+                        <figure class="emp">
+                            <img src="images/employee1.png" alt="Joseph">
+                            <figcaption>Joseph</figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure class="emp">
+                            <img src="images/employee2.png" alt="Smith">
+                            <figcaption>Smith</figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure class="emp">
+                            <img src="images/employee3.png" alt="Junior">
+                            <figcaption>Junior</figcaption>
+                        </figure>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>©2026 | Wellinton Allan Gobbi | Paraná, Brazil</p>
+        <nav class="socialmedia">
+
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="facebook icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="linkedin icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
